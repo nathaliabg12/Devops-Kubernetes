@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: students-terminal
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP        
+  port: 8080
+
+pod:
+  tty: true
+  stdin: true
