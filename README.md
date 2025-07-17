@@ -40,8 +40,8 @@ Todos os componentes são conteinerizados e orquestrados pelo Kubernetes por mei
 - ` git clone https://github.com/nathaliabg12/Devops-Kubernetes.git`
 
 ### Execute o Script de Deploy
-`chmod +x deploy.sh`
-`./deploy.sh`
+- `chmod +x deploy.sh`
+- `./deploy.sh`
 - Esse script faz:
   - O build da aplicação(mvn package)
   - Inicializa o Minikube
